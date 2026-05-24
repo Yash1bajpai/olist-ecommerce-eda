@@ -1,0 +1,27 @@
+# --- Raw data --- #
+# Never push source CSVs or the merged output to the repository.
+# Reviewers reproduce master_data.csv locally by running 1_data_preparation.py.
+archive/
+master_data.csv
+
+# --- Python --- #
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# --- Virtual environments --- #
+.venv/
+venv/
+env/
+
+# --- OS / editor artifacts --- #
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# --- Jupyter (if notebooks are added later) --- #
+.ipynb_checkpoints/
+*.ipynb
