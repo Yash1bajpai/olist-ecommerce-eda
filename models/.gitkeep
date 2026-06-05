@@ -1,0 +1,2 @@
+# This file keeps the models/ folder tracked by git.
+# Trained .pkl model files are saved here by 4_model_training.py

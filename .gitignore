@@ -22,6 +22,9 @@ Thumbs.db
 .idea/
 .vscode/
 
-# --- Jupyter (if notebooks are added later) --- #
+# --- Jupyter --- #
 .ipynb_checkpoints/
-*.ipynb
+
+# --- Saved models and test splits (reproduce locally by running the pipeline) --- #
+models/*.pkl
+models/*.csv
